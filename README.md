@@ -111,10 +111,17 @@ I used [ANGLE](https://github.com/google/angle) for the dll, and some piece of c
 I hope the esDebugger would be helpfull for someone else. Because it was for me.
 Feel free to report bug, error, patch, request...
 
-### TODO : 
+### TODO :
+
 Add more checkup on function
+
 A texture viewer (dialog based ?)
+
 A buffer viewer (same question as above)
+
 Finish simple verification on all function
 
+### Screenshot
+
 ![Screenshot](/screenshot.jpg?raw=true "Screenshot")
+
