@@ -38,12 +38,15 @@
    In most case, when you need some help to debug your code.
    Just replace the standard opengl headers with these headers :
    * Replace: 
+   ```
       #include <EGL/egl.h>
       #include <EGL/egl.h>
+   ```
    * With :
+   ```
       #include <debugger.h>
       #include <extensions.h>
-
+   ```
    the debugger need two step to be initialized :
    first one : when you have created your display, call
 	Extensions::initEgl( display );
@@ -65,6 +68,7 @@
    
    Frame ID - Calls function - where it was called @ which line
    ---------------------------------------------------------------------
+   ```
    1 glClearColor( 0.533333, 0.545098, 0.552941, 1 ) (ogles2/renderer.cxx@597)
    1 glDepthMask( flag:GL_TRUE ) (ogles2/renderer.cxx@481)
    1 glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT ) (ogles2/renderer.cxx@652)
@@ -76,6 +80,7 @@
    1 glUniformMatrix4fv( location:0 count:1 transpose:GL_FALSE value[0]:1.81066 ) (ogles2/shader.cxx@1122)
    1 glEnableVertexAttribArray( index:0 ) (ogles2/vertexbuffer.cxx@163)
    1 glEnableVertexAttribArray( index:2 ) (ogles2/vertexbuffer.cxx@163)
+   ```
    .... and so one.
 
 
