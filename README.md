@@ -102,12 +102,19 @@ something strange =)
 The licence was selected for the open source community, use it, share it
 update it and make it better.
 
-### Note:
-The OpenGL wrapper was automatically dumped with a bash script.
+### Note :
+The OpenGL function was exported automatically with a bash script.
+So, all opengl function is not added to calls function history or error reporting, only these who I managed to work on.
 
 I used [ANGLE](https://github.com/google/angle) for the dll, and some piece of code, thanks for the author of ANGLE ! (The licence is not the same, and I dont known if i can mixe licence, let me known if I made something bad)
 
 I hope the esDebugger would be helpfull for someone else. Because it was for me.
-Feel free to report bug, error, or even a bad language traduction =)
+Feel free to report bug, error, patch, request...
+
+### TODO : 
+Add more checkup on function
+A texture viewer (dialog based ?)
+A buffer viewer (same question as above)
+Finish simple verification on all function
 
 ![Screenshot](/screenshot.jpg?raw=true "Screenshot")
