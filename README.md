@@ -17,6 +17,7 @@ and with a bit more "explicit error message".
 * [Todo list](#TODO)
 * [Screenshot](#Screenshot)
 * [Changelog](#Changelog)
+* [Upcoming change](#Upcoming)
 
 <A NAME="Why">
 ## Why esDebugger :
@@ -137,3 +138,8 @@ Feel free to report bug, error, patch, request...<br/>
 <A NAME="Changelog">
 ## Changelog
 tbd
+
+<A NAME="Upcoming">
+## Upcoming change
+Currently, I am working on the texture side (On dialog, on Windows for now, but soon on fltk.)
+Added the capability to watch every texture sent to opengl (ditto for mipmap level)
