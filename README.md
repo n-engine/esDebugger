@@ -1,14 +1,26 @@
 # esDebugger
+---
 
-### What is it ? :
+## Overview
+esDebbuger is a simple OpenGL ES 2.0 debugger.
+It is a collection of function to help debugging your code
+when you work on OpenGL ES 2.0. It can help you find error more easily
+and with a bit more "explicit error message".
 
-   esDebbuger is a simple OpenGL ES 2.0 debugger.
-   It is a collection of function to help debugging your code
-   when you work on OpenGL ES 2.0. It can help you find error more easily
-   and with a bit more "explicit error message".
+## Table of Contents
+* [Why esDebugger](#Why)
+* [What is not ?](#WhatNot)
+* [Speed issue](#SpeedIssue)
+* [Usage](#Usage)
+* [Reporting example](#Reporting)
+* [The licence](#Licence)
+* [Note](#Note)
+* [TODO](#TODO)
+* [Screenshot](#Screenshot)
+* [Changelog](#Changelog)
 
-
-### Why :
+<A NAME="Why">
+## Why esDebugger :
 
 I spent alot of time debugging a simple error on my engine.
 Lost alot of time and energy to understand what was wrong with my code.
@@ -23,20 +35,23 @@ for OpenGL ES 2.0 on Windows/Linux (or I dont known the existing tool)
 But these tools doesnt helped me at all and I was very frustrated
 not finding a simple bug ! With these tool, no problem (For my need)
 
-### What is not ? :
+<A NAME="WhatNot">
+## What is not ? :
    esDebugger is not a fully fonctionnal tool like "gDebugger", it is
    more like a library to use for debugging and reporting what is doing 
    and what was called with which define.
    I was missing time to make a Linux or Mac version of the reporting 
    dialog tool. So for now, there is only a Win32 version.
 
-### Speed issue :
+<A NAME="SpeedIssue">
+## Speed issue :
    Dont forget, it is a debugging tool.
    It is slow as hell when you have 300 function calls becase the lib
    report every function you call to a string buffer and report it
    to a dialog (for now).
 
-### Usage :
+<A NAME="Usage">
+## Usage :
    Take a look into the directory tests.
    In most case, when you need some help to debug your code.
    Just replace the standard opengl headers with these headers :
@@ -75,7 +90,8 @@ The code will report every call to console or to a log (it is up to you
 to give a log system) By default the output is for the console
 and the standard output (std::cout)
 
-### Reporting example :
+<A NAME="Reporting">
+## Reporting example :
 
 Frame ID - Calls function - where it was called @ which line
 
@@ -98,11 +114,13 @@ Frame ID - Calls function - where it was called @ which line
 The code is not thread safe and alot buggy, so pardon me if you found
 something strange =)
 
-### The Licence :
+<A NAME="Licence">
+## The licence :
 The licence was selected for the open source community, use it, share it
 update it and make it better.
 
-### Note :
+<A NAME="Note">
+## Note :
 The OpenGL function was exported automatically with a bash script.
 So, all opengl function is not added to calls function history or error reporting, only these who I managed to work on.
 
@@ -111,7 +129,8 @@ I used [ANGLE](https://github.com/google/angle) for the dll, and some piece of c
 I hope the esDebugger would be helpfull for someone else. Because it was for me.
 Feel free to report bug, error, patch, request...
 
-### TODO :
+<A NAME="TODO">
+## TODO :
 
 Add more checkup on function
 
@@ -121,7 +140,11 @@ A buffer viewer (same question as above)
 
 Finish simple verification on all function
 
-### Screenshot
+<A NAME="Screenshot">
+## Screenshot
 
 ![Screenshot](/screenshot.jpg?raw=true "Screenshot")
 
+<A NAME="Changelog">
+## Changelog
+tbd
