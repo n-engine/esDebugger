@@ -1,4 +1,4 @@
-This is the simplest I have created to show you how to use the esDebugger with a Dialog
+This is the simplest test I have created to show you how to use the esDebugger with a Dialog
 based console reporting window.
 
 window.cxx contain all the base to open a display for opengl es 2.0.
