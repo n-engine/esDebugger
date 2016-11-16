@@ -131,14 +131,11 @@ Feel free to report bug, error, patch, request...
 
 <A NAME="TODO">
 ## TODO :
-
 Add more checkup on function
-
 A texture viewer (dialog based ?)
-
 A buffer viewer (same question as above)
-
 Finish simple verification on all function
+Move example to gtk or fltk
 
 <A NAME="Screenshot">
 ## Screenshot
