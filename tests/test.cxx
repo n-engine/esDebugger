@@ -24,7 +24,7 @@ int APIENTRY wWinMain(
 	HINSTANCE hInstance,HINSTANCE hPrevInstance,
 	LPWSTR lpCmdLine,int nCmdShow)
 {
-	bool result = Window::init(800,600,0/* flag is future usage */);
+	bool result = Window::init(800,600,0/* flag is for future usage */);
 
 	Window::createConsole(ID_DIALOG_CONSOLE, ID_EDIT,Window::getHwnd());
 
