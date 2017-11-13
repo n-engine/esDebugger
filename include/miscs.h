@@ -22,7 +22,7 @@
 #define __MISCS_INCLUDE_H__
 
 // misc tool given as an example for the test
-// you can easyli replace String, vector and
+// you can easily replace String, vector and
 // map class with your own with just one define.
 
 #include <stdarg.h>	// va_list, va_start, va_arg, va_end
